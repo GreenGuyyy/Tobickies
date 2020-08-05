@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.logo {
+    font-family: "Lobster", calibri;
+    padding: 10px;
+    font-size: 400px;
+}
+nav {
+    background-color: rgb(152,251,152);
+    padding: 5px;
+}
