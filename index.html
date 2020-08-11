@@ -5,9 +5,11 @@
         <script>
             function update(idee,tiem){
                 setTimeout(function () {
-                    document.getElementById(idee);
+                    document.getElementById(idee).style.display = "block";;
                 }, tiem);
-                }
+            }
+            update("1", 500);
+            update("2", 5000);
         </script>
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
         <style>
